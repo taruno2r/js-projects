@@ -1,0 +1,37 @@
+body {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+#container {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    color: white;
+    padding: 0.5rem;
+    margin-inline-start: 1rem;
+    min-width: 120px;
+    height: 32px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+#red {
+    background-color: #da4f4a;
+}
+
+#green {
+    background-color: #5ab75c;
+}
+
+#blue {
+    background-color: #016ecd;
+}
+
+#random {
+    background-color: #e0e0e0;
+    color: black;
+}
