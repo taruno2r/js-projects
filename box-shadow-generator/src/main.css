@@ -1,0 +1,22 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 400px;
+  padding: 16px;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 8px;
+  row-gap: 16px;
+}
+
+.color {
+  width: 100%;
+}
+
+.css-value {
+  grid-column: -3/-1;
+}
